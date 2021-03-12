@@ -1,0 +1,85 @@
+html {
+    min-height: 100%;
+    border: 18px solid #8ae722;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 150%;
+    max-width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 9%;
+    margin: 0%;
+}
+
+img {
+    width: 70%;
+}
+
+form {
+    height: 180%;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+input {
+    display: none;
+}
+
+label {
+    background-color: #fa8227;
+    height: calc(2em + .10rem);
+    margin-bottom: 2%;
+    font-size: 110%;
+    font-weight: bold;
+    border: 2px solid #5d2121;
+    border-bottom: 2px solid #ccc;
+    border-radius: 7%;
+}
+
+button {
+    height: 135%;
+    font-family: "Comic Sans MS";
+    font-size: 120%;
+    background-color: #f1e42b;
+}
+
+.form-container {
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    min-height: 90%;
+    margin-bottom: 10%;
+}
+
+.container {
+    max-width: 100%;
+    padding: 5px;
+    overflow: hidden;
+    min-height: auto;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 55%;
+}
+
+.btn-proceed {
+    width: 70%;
+    background-color: #ff589e;
+    position: absolute;
+    top: 50%;
+    height: fit-content;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image verification</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <script src="./../static/js/vanilla.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Upload an image</h2>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <nav class="form-container">
+                <label onclick="browse()">Choose a picture (jpg, png)</label>
+                <input type="file" name="image" id="image" onchange="showButton()">
+                <button id="btn" type="submit" onchange="showImgs()">Predict</button>
+            </nav>
+            <span id="imgs" class="img-container">
+                <img id="img_plot" src="{{img_plot}}" alt="Image">
+                <img id="pie_plot" src="{{pie_plot}}" alt="Pie">
+            </span>
+        </form>
+    </div>
+</body>
+</html>
