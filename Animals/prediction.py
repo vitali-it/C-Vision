@@ -2,7 +2,9 @@ import warnings
 import cv2 as cv
 import tensorflow as tf
 import utils
+import matplotlib
 from matplotlib import pyplot as plt
+matplotlib.use('SVG')
 
 PLOT_PNG = '_plot.png'
 COLOR_TITLE = 'maroon'

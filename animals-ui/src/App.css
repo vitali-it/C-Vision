@@ -1,0 +1,17 @@
+.App {
+    text-align: center;
+}
+
+html {
+    min-height: 100%;
+    border: 18px solid #8ae722;
+}
+
+h2 {
+    font-weight: 800;
+    max-width: 100%;
+    padding-top: 10%;
+    margin: auto;
+    text-align: center;
+    color: #155263;
+}

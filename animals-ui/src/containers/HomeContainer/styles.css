@@ -1,0 +1,14 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 55%;
+}
+
+.btn-proceed {
+    width: 70%;
+    background-color: #ff589e;
+    position: absolute;
+    top: 50%;
+    height: fit-content;
+}

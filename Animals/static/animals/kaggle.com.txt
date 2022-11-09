@@ -1,3 +1,0 @@
-https://www.kaggle.com/ashishsaxena2209/animal-image-datasetdog-cat-and-panda
-
-When we get the archive downloaded, add the images into the corresponding folders in order to create our dataset
