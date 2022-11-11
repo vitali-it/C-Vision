@@ -12,6 +12,8 @@ def upload_img():
     if request.method.__eq__('POST'):
         if request.files:
             full_name = save_img()
+            print('Loaded Picture saved as', full_name)
+
             img_plot, pie_plot = prediction.produce_result(full_name)
             img_plot, pie_plot = code_imgs(img_plot, pie_plot)
 

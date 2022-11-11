@@ -1,0 +1,1 @@
+Here we store the generated pictures after processing them in order to send them to the client
